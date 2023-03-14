@@ -1,0 +1,9 @@
+names = ['Hello World!', 231, 'Myhaylo', 444 ]
+
+names2 = [28, 'Oleg', 'Hi!', 'How are you?']
+names.pop()
+names2.pop(0)
+
+names2.extend(names)
+print(names2)
+print(len(names2)) 
